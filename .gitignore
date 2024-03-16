@@ -1,0 +1,6 @@
+.sass-cache/
+_site/
+Gemfile.lock
+_build/
+__pycache__
+.nox/
