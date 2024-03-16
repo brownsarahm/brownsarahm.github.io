@@ -12,13 +12,13 @@ jobs:
   deploy-book:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+    - name: Set up Python 
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.7
+        python-version: 3.11
 
     - name: Install dependencies
       run: |
@@ -28,7 +28,7 @@ jobs:
     # Build the book
     - name: Build the site
       run: |
-        make dirhtml
+        make html
 
     # If we've pushed to main, push the book's HTML to github-pages
     - if: ${{ github.ref == 'refs/heads/main' }}
@@ -36,5 +36,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.5.9
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/dirhtml
-        cname: sarahmbrown.org
+        publish_dir: ./_build/html
+        cname: brownsarahm.com
