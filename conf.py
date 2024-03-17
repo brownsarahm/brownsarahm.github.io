@@ -76,16 +76,6 @@ html_theme_options = {
             # The type of image to be used (see below for details)
             "type": "fontawesome",
         },
-         {
-            # Label for this link
-            "name": "Personal GitHub",
-            # URL where the link will redirect
-            "url": "https://github.com/brownsarahm/",  # required
-            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
-            "icon": "fa fa-github",
-            # The type of image to be used (see below for details)
-            "type": "fontawesome",
-        },
         {
             # Label for this link
             "name": "ORCiD",
