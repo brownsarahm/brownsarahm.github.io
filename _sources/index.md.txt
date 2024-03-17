@@ -3,7 +3,7 @@
 ::::{card-carousel} 2
 
 
-:::{card} Professional
+:::{card} Portfolio
 :link: https://sarahmbrown.org
 :img-top: _static/img/sarah_m_brown.png
 :img-alt: a profile of sarah in a purple sweater
