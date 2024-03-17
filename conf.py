@@ -58,9 +58,7 @@ html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
   "github_url": "https://github.com/brownsarahm/",
-  "twitter_url": "https://twitter.com/brownsarahm",
-  "search_bar_text": "Search this site...",
-  "navbar_end": [ ],
+  "navbar_end": ["icon-links" ],
   "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_persistent": [],
@@ -70,7 +68,7 @@ html_theme_options = {
   "icon_links": [
         {
             # Label for this link
-            "name": "Lab",
+            "name": "Lab GitHub",
             # URL where the link will redirect
             "url": "https://github.com/ml4sts/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
@@ -80,14 +78,25 @@ html_theme_options = {
         },
          {
             # Label for this link
-            "name": "Personal",
+            "name": "Personal GitHub",
             # URL where the link will redirect
             "url": "https://github.com/brownsarahm/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
             "icon": "fa fa-github",
             # The type of image to be used (see below for details)
             "type": "fontawesome",
+        },
+        {
+            # Label for this link
+            "name": "ORCiD",
+            # URL where the link will redirect
+            "url": "https://orcid.org/0000-0001-5728-0822",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-orcid",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
         }
+        
   ]
 }
 

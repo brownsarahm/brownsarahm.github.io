@@ -38,6 +38,5 @@ Hello!
 
 portfolio <https://sarahmbrown.org>
 lab <https://ml4sts.com>
-github <https://github.com/brownsarahm>
 bluesky <https://bsky.app/profile/brownsarahm.com>
 ```
